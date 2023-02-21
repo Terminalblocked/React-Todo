@@ -1,0 +1,27 @@
+.todo-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding-top: 50px;
+  input {
+    width: 450px;
+    background: #2f3337;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    outline: none;
+    border: 2px solid #34c46e;
+    border-radius: 50px 0px 0px 50px;
+    padding: 10px 20px;
+  }
+  button {
+    max-width: 160px;
+    padding: 5px 20px;
+    background: #50c878;
+    border-radius: 0px 50px 50px 0px;
+    color: #013617;
+    font-family: inherit;
+    font-weight: 900;
+  }
+}
